@@ -1,0 +1,6 @@
+<script lang="ts">
+  export let size: number = 20;
+  export let color: string = 'currentColor';
+  export let viewBox: string = '0 0 24 24';
+</script>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height={size} {viewBox} width={size}><g><rect fill={color} height={size} width={size}/></g><g><g><rect height={size} opacity=".3" width={size} x="3.5" y="5.5"/><rect height={size} opacity=".3" width={size} x="7" y="12.5"/><rect height={size} opacity=".3" width={size} x="7" y="9"/><rect height={size} opacity=".3" width={size} x="3.5" y="12.5"/><rect height={size} opacity=".3" width={size} x="7" y="5.5"/><rect height={size} opacity=".3" width={size} x="3.5" y="9"/><rect height={size} opacity=".3" width={size} x="10.5" y="12.5"/><rect height={size} opacity=".3" width={size} x="14" y="9"/><rect height={size} opacity=".3" width={size} x="14" y="5.5"/><rect height={size} opacity=".3" width={size} x="14" y="12.5"/><rect height={size} opacity=".3" width={size} x="10.5" y="5.5"/><rect height={size} opacity=".3" width={size} x="10.5" y="9"/><path d="M2,4v12h15.5V4H2z M5.5,14.5h-2v-2h2V14.5z M5.5,11h-2V9h2V11z M5.5,7.5h-2v-2h2V7.5z M9,14.5H7v-2h2V14.5z M9,11H7V9h2 V11z M9,7.5H7v-2h2V7.5z M12.5,14.5h-2v-2h2V14.5z M12.5,11h-2V9h2V11z M12.5,7.5h-2v-2h2V7.5z M16,14.5h-2v-2h2V14.5z M16,11h-2 V9h2V11z M16,7.5h-2v-2h2V7.5z"/></g></g></svg>

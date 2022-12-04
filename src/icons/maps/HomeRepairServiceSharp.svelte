@@ -1,0 +1,6 @@
+<script lang="ts">
+  export let size: number = 20;
+  export let color: string = 'currentColor';
+  export let viewBox: string = '0 0 24 24';
+</script>
+<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 20 20" height={size} {viewBox} width={size}><g><rect fill={color} height={size} width={size}/></g><g><g><g><polygon points="14,13 13,13 13,12 7,12 7,13 6,13 6,12 3,12 3,16 17,16 17,12 14,12"/></g><path d="M13,7V4H7v3H3v4h3v-1h1v1h6v-1h1v1h3V7H13z M12,7H8V5h4V7z"/></g></g></svg>
